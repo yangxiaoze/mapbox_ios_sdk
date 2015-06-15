@@ -1,6 +1,6 @@
 Pod::Spec.new do |m|
 
-  m.name    = 'Mapbox-iOS-SDK'
+  m.name    = 'Mapbox_iOS_SDK'
   m.version = '1.6.1'
 
   m.summary          = 'An open source toolset for building mapping applications for iOS devices.'
@@ -67,7 +67,7 @@ Pod::Spec.new do |m|
 
   m.xcconfig = {
     'OTHER_LDFLAGS'        => '-ObjC',
-    'LIBRARY_SEARCH_PATHS' => '"${PODS_ROOT}/Mapbox-iOS-SDK/Proj4"'
+    'LIBRARY_SEARCH_PATHS' => '"${PODS_ROOT}/Mapbox_iOS_SDK/Proj4"'
   }
 
   m.preserve_paths = 'MapView/MapView.xcodeproj', 'MapView/Map/Resources'
